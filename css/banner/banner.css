@@ -1,0 +1,29 @@
+.banner{
+    background-color: aqua;
+    width: 100%;
+    height: 200px;
+}
+
+.banner_img{
+    background: url(../../img/1.jpg) center / cover no-repeat;
+    width: 100%;
+    height: 400px;
+}
+/**/
+.banner__texto{
+    bottom: 300px;
+    color: #fdfdfd;
+    font-size: 1.5rem;
+    font-weight: bold;
+    left: 40px;
+    position: relative;
+    width: 400px;
+}
+.banner_btn{
+    background: #2A7AE4;
+    color: #fdfdfd;
+    font-size: 1.2rem;
+    border: none;
+    height: 51px;
+    width: 129px;
+}

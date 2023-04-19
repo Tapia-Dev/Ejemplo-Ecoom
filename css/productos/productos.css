@@ -1,0 +1,82 @@
+
+.producto__titulo{
+    display: flex;
+    
+    position: relative;
+    width: 100%;
+    top: 220px;
+    height: 40px;
+    align-items: center;
+    justify-content:center;
+    
+    padding: 0px 30px;
+
+    box-sizing: border-box;
+}
+.producto__title{
+    font-size: 1.1rem;
+}
+.producto__link{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.productos__cajasflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 250px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.productos__caja{
+    background-color: rgb(135, 153, 153);
+    width: 176px;
+    height: 174px;
+    margin : 5px;
+    box-sizing: border-box;
+}
+.cajita__title{
+    position: relative;
+    bottom: 50px;
+}
+
+
+.c1{
+    background: url(../../img/productos/one.png)center /cover no-repeat;
+}
+
+.c2{
+    background: url(../../img/productos/2.png)center /cover no-repeat;
+}
+
+.c3{
+    background: url(../../img/productos/3.png)center /cover no-repeat;
+}
+
+.c4{
+    background: url(../../img/productos/4.png)center /cover no-repeat;
+}
+
+.c5{
+    background: url(../../img/productos/5.png)center /cover no-repeat;
+}
+
+.c6{
+    background: url(../../img/productos/6.png)center /cover no-repeat;
+}
+.productos__caja--txt{
+    position: relative;
+    font-size: 1rem;
+    top: 200px;
+}
+
+.productos__link{
+    font-weight: 800;
+    text-decoration: none;
+    color: #2A7AE4;
+}
+

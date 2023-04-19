@@ -1,0 +1,84 @@
+
+.consola__titulo{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    top: 400px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    
+}
+.consola__title{
+    font-size: 1.1rem;
+    position: relative;
+    top: 0px;
+    box-sizing: border-box;
+}
+.consola__link{
+    text-decoration: none;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+}
+
+.consola__cajasflex{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    position: relative;
+    top:400px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.consola__caja{
+    background-color: rgb(135, 153, 153);
+    width: 176px;
+    height: 174px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.consola__title{
+    position: relative;
+    bottom: 50px;
+}
+
+
+.a1{
+    background: url(../../img/consolas/a.png)center /cover no-repeat;
+}
+
+.b2{
+    background: url(../../img/consolas/b.png)center /cover no-repeat;
+}
+
+.c33{
+    background: url(../../img/consolas/c.png)center /cover no-repeat;
+}
+
+.d4{
+    background: url(../../img/consolas/d.png)center /cover no-repeat;
+}
+
+.e5{
+    background: url(../../img/consolas/f.png)center /cover no-repeat;
+}
+
+.w6{
+    background: url(../../img/consolas/w.png)center /cover no-repeat;
+}
+.consola__caja--txt{
+    position: relative;
+    font-size: 1rem;
+    top: 220px;
+}
+
+.consola__link{
+    font-weight: 800;
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
